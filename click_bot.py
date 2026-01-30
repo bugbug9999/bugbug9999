@@ -17,14 +17,14 @@ from webdriver_manager.chrome import ChromeDriverManager
 
 
 # ============ 설정 ============
-TARGET_URL = "https://example.com"  # 클릭할 웹페이지 URL
+TARGET_URL = "https://www.google.com"  # 클릭할 웹페이지 URL (여기에 실제 URL 입력)
 TARGET_HOUR = 14  # 목표 시간 (24시간 형식, 14 = 오후 2시)
 TARGET_MINUTE = 0  # 목표 분
 TARGET_SECOND = 0  # 목표 초
 
 # 클릭할 버튼 설정 (아래 중 하나만 사용)
 # CSS Selector 사용 시
-BUTTON_SELECTOR = "button.submit"  # 예: "button.buy-btn", "#purchase-button"
+BUTTON_SELECTOR = "button.submit"  # 여기에 버튼 selector 입력
 SELECTOR_TYPE = "css"  # "css" 또는 "xpath"
 
 # XPath 사용 시 (텍스트로 찾을 때 유용)
